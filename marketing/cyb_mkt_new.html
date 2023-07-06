@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marketing</title>
+	<link rel="stylesheet" type="text/css" href="cyb_mkt_new.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible">
+</head>
+<body>
+	<div class="main">
+	<form action="cyb_mkt_results.php" method="post">
+		<div class="form-container">
+			<h1 class="form-header">Marketing</h1>
+			<label for="fname" class="form-label">First name:</label>
+			<input type="text" id="fname" name="fname" class="form-input" required>
+			<label for="mname" class="form-label">Middle name:</label>
+			<input type="text" id="mname" name="mname" class="form-input" required>
+			<label for="lname" class="form-label">Last name:</label>
+			<input type="text" id="lname" name="lname" class="form-input" required>
+			<label for="email" class="form-label">Email:</label>
+			<input type="text" id="email" name="email" class="form-input" required>
+			<label for="Product" class="form-label">Product:</label>
+			<select id="product" name="product" class="form-input">
+				<option>Select:</option>
+				<option>Motherboard</option>
+				<option>ASUS ROG Strix Z590-E Gaming</option>
+				<option>ASUS TUF Gaming X570-Plus</option>
+				<option>ASUS ProArt B550-Creator</option>
+				<option>MSI MPG X570 GAMING PRO CARBON</option>
+			</select>
+			<label for="payment" class="form-label">Type of payment:</label>
+			<select id="payment" name="payment" class="form-input" required>
+				<option>Select:</option>
+				<option>Online payment</option>
+				<option>Cash on delivery</option>
+			</select>
+			<label for="date" class="form-label">Date of paying:</label>
+			<input type="date" id="paying" name="paying" class="form-input" required>
+			<h3 class="form-header">Address</h3>
+			<label for="street" class="form-label">Street:</label>
+			<input type="text" id="street" name="street" placeholder="Street Name, Building, House No." class="form-input" required>
+			<label for="postal" class="form-label">Postal Code:</label>
+			<input type="text" id="postal" name="postal" placeholder="Postal Code" class="form-input" required>
+			<label for="region" class="form-label">Region, Province, City, Barangay:</label>
+			<input type="text" id="region" name="region" placeholder="Region, Province, City, Barangay" class="form-input" required>
+			<input type="submit" class="form-button">
+		</div>
+	</form>
+	</div>
+</body>
+</html>

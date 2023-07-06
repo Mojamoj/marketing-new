@@ -1,0 +1,117 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    border: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("alexandre-debieve-FO7JIlwjOtU-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* To center the elements */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Form container */ 
+
+.form-container { 
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #14213d;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 500px;
+/* Form header */
+}
+
+.form-header {
+    margin-bottom: 20px;
+}
+
+.form-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #e5e5e5;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form label */
+.form-label {
+    display: block; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+
+/* Form input */
+.form-input { 
+    width: 95%; padding: 10px; 
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px; 
+    background-color: #f2f2f2;
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px #FCA311;
+}
+
+/* Forgot password */
+.forgot-pass {
+    cursor: pointer;
+    font-size: 12px;
+    color: #e5e5e5;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.forgot-pass:hover {
+    color: #FCA311;
+    transition: 0.3s ease-in-out;
+}
+
+/* Form button */
+z
+
+/* Form error message */
+.form-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-button {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #FCA311;
+    color: #14213d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #ED820E;
+}
